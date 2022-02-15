@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19635" started-at="2022-02-10T10:57:42Z" finished-at="2022-02-10T10:58:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19635" started-at="2022-02-10T10:57:42Z" finished-at="2022-02-10T10:58:01Z">
+      <class name="org.testNG.AdacTestNG">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.testNG.AdacTestNG@57fffcd7]" name="beforeClass" is-config="true" duration-ms="6307" started-at="2022-02-10T10:57:42Z" finished-at="2022-02-10T10:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginHotel(java.lang.String, java.lang.String)[pri:0, instance:org.testNG.AdacTestNG@57fffcd7]" name="loginHotel" duration-ms="339" started-at="2022-02-10T10:57:48Z" finished-at="2022-02-10T10:57:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bala2015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sai@2013]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHotel -->
+        <test-method status="PASS" signature="tc02()[pri:1, instance:org.testNG.AdacTestNG@57fffcd7]" name="tc02" duration-ms="2436" started-at="2022-02-10T10:57:48Z" finished-at="2022-02-10T10:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method status="PASS" signature="tc03()[pri:2, instance:org.testNG.AdacTestNG@57fffcd7]" name="tc03" duration-ms="2212" started-at="2022-02-10T10:57:51Z" finished-at="2022-02-10T10:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method status="PASS" signature="tc04()[pri:3, instance:org.testNG.AdacTestNG@57fffcd7]" name="tc04" duration-ms="936" started-at="2022-02-10T10:57:53Z" finished-at="2022-02-10T10:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04 -->
+        <test-method status="PASS" signature="tc05(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:org.testNG.AdacTestNG@57fffcd7]" name="tc05" duration-ms="1552" started-at="2022-02-10T10:57:54Z" finished-at="2022-02-10T10:57:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bala]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9898766543543211]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05 -->
+        <test-method status="PASS" signature="tc06()[pri:5, instance:org.testNG.AdacTestNG@57fffcd7]" name="tc06" duration-ms="5795" started-at="2022-02-10T10:57:55Z" finished-at="2022-02-10T10:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06 -->
+      </class> <!-- org.testNG.AdacTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

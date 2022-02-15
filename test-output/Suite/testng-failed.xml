@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="cvv" value="8765"/>
+    <parameter name="last" value="bala"/>
+    <parameter name="pass" value="Sai@2013"/>
+    <parameter name="ccnum" value="989876654354321"/>
+    <parameter name="addres" value="chennai"/>
+    <parameter name="user" value="bala2015"/>
+    <parameter name="first" value="Sai"/>
+    <classes>
+      <class name="org.testNG.PageClass">
+        <methods>
+          <include name="tc06"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- org.testNG.PageClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

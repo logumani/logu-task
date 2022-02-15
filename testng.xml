@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="user" value="bala2015"></parameter>
+  <parameter name="pass" value="Sai@2013"></parameter>
+  <parameter name="first" value="Sai"></parameter>
+  <parameter name="last" value="bala"></parameter>
+  <parameter name="addres" value="chennai"></parameter>
+  <parameter name="ccnum" value="9898766543543211"></parameter>
+  <parameter name="cvv" value="8765"></parameter>
+    <classes>
+      <class name="org.testNG.AdacTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
